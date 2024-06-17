@@ -1,0 +1,39 @@
+.font-home {
+  font-family: Caveat, Arial, Helvetica, sans-serif;
+}
+.anime {
+  animation-name: slide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+.anime-l {
+  animation-name: slider-l;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+@keyframes slider-l {
+  from {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+}
+.anime-r {
+  animation-name: slidel-r;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+@keyframes slidel-r {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+}
