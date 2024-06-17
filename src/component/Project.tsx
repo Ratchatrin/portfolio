@@ -133,7 +133,7 @@ function Project() {
                 className="flex justify-center items-center"
               >
                 <img
-                  src="/public/the brand.JPG"
+                  src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/448710612_7490655867727194_7993264848714025634_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=e_Oio7fjctMQ7kNvgG6ZbEj&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYAyuQRkeEuUQHz8FguJA9aj1dDgl8cxg7fpR7Yv_qVUCg&oe=6675C37B"
                   alt="the_brand"
                   className="w-11/12 max-w-2xl rounded-lg shadow-xl"
                 />
@@ -169,7 +169,7 @@ function Project() {
                 className="flex justify-center items-center"
               >
                 <img
-                  src="/public/beat.JPG"
+                  src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/448622000_7490655897727191_2432330251934148518_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vB90HL-NVtwQ7kNvgGA08m7&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYB1D0FtWD0beaTfwQm63S_qUxdaWYk1wzEKfEm1AtjNGQ&oe=6675B217"
                   alt="the_brand"
                   className="w-11/12 max-w-2xl rounded-lg shadow-xl"
                 />
@@ -205,7 +205,7 @@ function Project() {
                 className="flex justify-center items-center"
               >
                 <img
-                  src="/public/cooking.JPG"
+                  src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/448689136_7490655844393863_5163544916904530712_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=p19B4bSa6N8Q7kNvgHsR6fJ&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYD8G14EvJP4ZnMN_52Tj7D73RWQlojq32_U615z4hPhqg&oe=6675C12C"
                   alt="the_brand"
                   className="w-11/12 max-w-2xl rounded-lg shadow-xl"
                 />
