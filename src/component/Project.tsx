@@ -20,7 +20,7 @@ function Project() {
                 className="flex justify-center items-center"
               >
                 <img
-                  src="/public/the brand.JPG"
+                  src="https://i.ibb.co/10CYcCN/the-brand.jpg"
                   alt="the_brand"
                   className="w-full rounded-lg shadow-xl"
                 />
@@ -56,7 +56,7 @@ function Project() {
                 className="flex justify-center items-center"
               >
                 <img
-                  src="/public/beat.JPG"
+                  src="https://i.ibb.co/k4C6Z1B/beat.jpg"
                   alt="beats"
                   className="w-full rounded-lg shadow-xl"
                 />
@@ -92,8 +92,8 @@ function Project() {
                 className="flex justify-center items-center"
               >
                 <img
-                  src="/public/cooking.JPG"
-                  alt="beats"
+                  src="https://i.ibb.co/S5JhRqS/cooking.jpg"
+                  alt="cocking"
                   className="w-full rounded-lg shadow-xl"
                 />
               </a>
