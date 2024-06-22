@@ -14,8 +14,8 @@ function Home() {
     <>
       {windowWidth < 767 ? (
         <>
-          <div className="anime font-home w-full h-full flex flex-col gap-10 justify-start items-center">
-            <div className="flex flex-col gap-3 justify-center items-center font-bold text-3xl text-center">
+          <div className="anime font w-full h-full flex flex-col gap-10 justify-start items-center">
+            <div className="flex font-home font-bold flex-col gap-3 justify-center items-center  text-3xl text-center">
               <img
                 src="https://i.ibb.co/ydbqNZx/306749716-746133143151985-792680549932249393-n.jpg"
                 alt="profile"
@@ -26,7 +26,7 @@ function Home() {
               <Link to="/about">
                 <button
                   className={
-                    "bg-slate-500 p-3 mt-5 text-white rounded-lg hover:bg-slate-200 hover:text-slate-600"
+                    "bg-slate-500 p-3 mt-5 text-white rounded-lg hover:bg-slate-200 hover:text-slate-700"
                   }
                   onClick={() => {
                     dispatch(page("about"));
@@ -40,8 +40,8 @@ function Home() {
         </>
       ) : (
         <>
-          <div className="anime font-home w-full h-3/5 flex flex-col gap-10 justify-center items-center">
-            <div className="flex flex-col gap-3 justify-center items-center font-bold text-4xl">
+          <div className="anime font w-full h-3/5 flex flex-col gap-10 justify-center items-center">
+            <div className="flex font-home font-bold flex-col gap-3 justify-center items-center  text-4xl">
               <img
                 src="https://i.ibb.co/ydbqNZx/306749716-746133143151985-792680549932249393-n.jpg"
                 alt="profile"
@@ -52,7 +52,7 @@ function Home() {
               <Link to="/about">
                 <button
                   className={
-                    "duration-300 bg-slate-500 p-3 mt-5 text-white rounded-lg hover:bg-slate-400 hover:text-slate-600"
+                    "duration-300 bg-slate-500 p-3 mt-5 text-white rounded-lg hover:bg-slate-400 hover:text-slate-700"
                   }
                   onClick={() => {
                     dispatch(page("about"));

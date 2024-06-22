@@ -13,7 +13,7 @@ function AboutMe() {
       {windowWidth < 767 ? (
         <>
           <div className="w-full flex justify-center items-center anime">
-            <div className="font font-bold text-xl flex flex-col justify-center items-center w-10/12 max-w-xl text-pretty">
+            <div className="font  text-md flex flex-col justify-center items-center w-10/12 max-w-xl text-pretty">
               <img
                 src="https://i.ibb.co/ydbqNZx/306749716-746133143151985-792680549932249393-n.jpg"
                 alt="profile"
@@ -69,21 +69,23 @@ function AboutMe() {
       ) : (
         <>
           <div className="w-full flex justify-center items-center anime">
-            <div className="font-home font-bold text-xl flex flex-col justify-center items-center w-11/12 max-w-xl text-pretty">
+            <div className="font  text-xl flex flex-col justify-center items-center w-11/12 max-w-xl text-pretty">
               <img
                 src="https://i.ibb.co/ydbqNZx/306749716-746133143151985-792680549932249393-n.jpg"
                 alt="profile"
                 className="w-56 mb-5 rounded-lg"
               />
-              <div className="text-3xl">
+              <div className="text-xl">
                 <p>
-                  Hello, my name is OHm Ratchatrin. <br /> I am a dedicated and
-                  passionate full stack developer with extensive experience in
-                  designing, developing, and maintaining complex web
-                  applications. My expertise spans across both front-end and
-                  back-end technologies, allowing me to deliver seamless and
-                  efficient solutions that meet the unique needs of each
-                  project.
+                  <span className="ml-5">
+                    Hello, my name is OHm Ratchatrin.{" "}
+                  </span>
+                  I am a dedicated and passionate full stack developer with
+                  extensive experience in designing, developing, and maintaining
+                  complex web applications. My expertise spans across both
+                  front-end and back-end technologies, allowing me to deliver
+                  seamless and efficient solutions that meet the unique needs of
+                  each project.
                 </p>
                 <br />
                 <p className="text-4xl mb-5 text-center">Technical Skills</p>

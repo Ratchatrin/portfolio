@@ -125,7 +125,7 @@ function Project() {
         </>
       ) : (
         <>
-          <div className="flex flex-col justify-start pt-10 items-center  font-home">
+          <div className="flex flex-col justify-start pt-10 items-center  font">
             <div className="anime-l hover:scale-105 duration-150 flex w-11/12 max-w-6xl justify-center items-center mb-5 bg-gray-400 p-5 rounded-lg ">
               <a
                 href="https://the-brand-shop.onrender.com"

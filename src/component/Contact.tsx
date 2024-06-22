@@ -29,9 +29,7 @@ function Contact() {
                 alt="facebook"
                 className="w-14 h-14"
               />
-              <p className="font-home font-bold text-3xl text-nowrap">
-                Ohm Ratchatrin
-              </p>
+              <p className="font  text-3xl text-nowrap">Ohm Ratchatrin</p>
             </div>
           </a>
           <a
@@ -45,7 +43,7 @@ function Contact() {
                 alt="ig"
                 className="w-14 h-14"
               />
-              <p className="font-home font-bold text-3xl ">i_o_h_m_l</p>
+              <p className="font  text-3xl ">i_o_h_m_l</p>
             </div>
           </a>
           <div className="flex justify-center items-center max-w-xs anime-l">
