@@ -8,8 +8,8 @@ function Home() {
   const updateWindowWidth = () => {
     setWindowWidth(window.innerWidth);
   };
-  const dispatch = useDispatch();
   window.addEventListener("resize", updateWindowWidth);
+  const dispatch = useDispatch();
   return (
     <>
       {windowWidth < 767 ? (

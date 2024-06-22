@@ -1,12 +1,18 @@
+import { useState } from "react";
 import NavBar from "./NavBar";
 
 function Contact() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const updateWindowWidth = () => {
+    setWindowWidth(window.innerWidth);
+  };
+  window.addEventListener("resize", updateWindowWidth);
   return (
     <>
       <NavBar></NavBar>
       <div className="h-full text-center mt-10">
         <p className="font-bold text-4xl mb-10 font">My Contact</p>
-        <div className="flex flex-col  w-full justify-center items-center gap-10 ">
+        <div className="flex flex-col  w-full justify-center items-center gap-5 ">
           <a
             href="https://github.com/Ratchatrin"
             className="anime-r hover:shadow-lg rounded-lg"
@@ -52,7 +58,11 @@ function Contact() {
               alt="email"
               className="w-24"
             />
-            <p className="font  text-2xl">Ratchatrin12@hotmail.com</p>
+            <p
+              className={`font   ${windowWidth < 767 ? "text-lg" : "text-3xl"}`}
+            >
+              Ratchatrin12@hotmail.com
+            </p>
           </div>
         </div>
       </div>
