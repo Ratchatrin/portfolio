@@ -13,7 +13,7 @@ function AboutMe() {
       {windowWidth < 767 ? (
         <>
           <div className="w-full flex justify-center items-center anime">
-            <div className="font-home font-bold text-xl flex flex-col justify-center items-center w-10/12 max-w-xl text-pretty">
+            <div className="font font-bold text-xl flex flex-col justify-center items-center w-10/12 max-w-xl text-pretty">
               <img
                 src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/448617868_7490656041060510_7200582433962848854_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oAfENk-jmtQQ7kNvgFDcJIK&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYCVLK0-RetE9C5e1JX_Pax04BShhmaZIZE2rLqCYg__EQ&oe=6675BAFE"
                 alt=""
@@ -69,7 +69,7 @@ function AboutMe() {
       ) : (
         <>
           <div className="w-full flex justify-center items-center anime">
-            <div className="font-home font-bold text-2xl flex flex-col justify-center items-center w-10/12 max-w-xl text-pretty">
+            <div className="font-home font-bold text-xl flex flex-col justify-center items-center w-11/12 max-w-xl text-pretty">
               <img
                 src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/448617868_7490656041060510_7200582433962848854_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oAfENk-jmtQQ7kNvgFDcJIK&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYCVLK0-RetE9C5e1JX_Pax04BShhmaZIZE2rLqCYg__EQ&oe=6675BAFE"
                 alt=""
@@ -77,7 +77,7 @@ function AboutMe() {
               />
               <div className="text-3xl">
                 <p>
-                  Hello, my name is OHm Ratchatrin. I am a dedicated and
+                  Hello, my name is OHm Ratchatrin. <br /> I am a dedicated and
                   passionate full stack developer with extensive experience in
                   designing, developing, and maintaining complex web
                   applications. My expertise spans across both front-end and

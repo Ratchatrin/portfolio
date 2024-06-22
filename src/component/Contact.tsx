@@ -54,9 +54,7 @@ function Contact() {
               alt="email"
               className="w-24"
             />
-            <p className="font-home font-bold text-2xl">
-              Ratchatrin12@hotmail.com
-            </p>
+            <p className="font  text-2xl">Ratchatrin12@hotmail.com</p>
           </div>
         </div>
       </div>
